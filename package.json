@@ -1,12 +1,22 @@
 {
-  "name": "vueadmin",
-  "version": "0.1.0",
+  "name": "vue-element-admin-tpl",
+  "version": "1.0.4",
+  "description": "A template for Vue",
+  "author": "copy<lanyueos@qq.com>",
   "private": true,
+  "app": {
+    "name": "基于Vue的后台管理系统模板"
+  },
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "element-ui": "^2.4.11",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "nprogress": "^0.2.0",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
